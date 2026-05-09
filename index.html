@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #ffffff; /* WHITE background */
-      color: #333333;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #ffffff;
+      color: #0F52BA;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -16,35 +17,53 @@
       margin: 0;
       text-align: center;
     }
+
     .container {
-      max-width: 600px;
+      max-width: 620px;
       padding: 20px;
     }
+
     img {
-      max-width: 260px;
-      margin-bottom: 30px;
+      max-width: 300px; /* Increased logo size */
+      margin-bottom: 28px;
     }
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-      font-weight: 600;
+
+    .mission {
+      font-style: italic;
+      font-size: 16.5px; /* Balanced vs logo */
+      line-height: 1.6;
+      margin-bottom: 24px;
     }
-    p {
-      font-size: 18px;
-      margin: 6px 0;
-    }
+
     .email {
-      margin-top: 20px;
-      font-weight: 600;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    .email a {
+      color: #0F52BA;
+      text-decoration: none;
+    }
+
+    .email a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <img src="logo.png" alt="Azul Medicals Logo">
-    <h1>Under Construction</h1>
-    <p>Medical Devices and Consumables</p>
-    <p class="email">contact@azulmedicals.com</p>
+
+    <div class="mission">
+      A global medical devices and consumables initiative with a focus on Venezuela.<br>
+      Committed to supporting patient care and quality of life through responsible partnerships.<br>
+      Website coming soon.
+    </div>
+
+    <div class="email">
+      Contact: <a href="mailto:gquijada@azulmedicals.com">gquijada@azulmedicals.com</a>
+    </div>
   </div>
 </body>
 </html>
